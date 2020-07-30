@@ -1,5 +1,5 @@
 #footer{
-  background-color: var(--dark);
+  background-color: var(--primary);
   color: #fff;
   padding: 18px 20px;
   text-align: center;
@@ -8,9 +8,10 @@
 		color: #fff;
 
 		a {
-			transition: 0.3s all ease;
+      transition: 0.3s all ease;
+      opacity: 0.8;
 			&:hover {
-				color: var(--primary);
+				opacity: 1;
 			}
 		}
 	}
@@ -31,9 +32,9 @@
             font-size: 20px;
             color: #fff;
             margin: 5px;
+            opacity: 0.8;
             &:hover{
-              opacity: .7;
-              color: var(--primary);
+              opacity: 1;
             }
           }
         }
